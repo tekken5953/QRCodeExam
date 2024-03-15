@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/as_emblem"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="Airsignal QR Tools"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font_bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/genearteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="Genearte QR Code"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="@android:color/holo_purple"
+            android:fontFamily="@font/font_medium"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="Scan QR Code"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/font_medium"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textColor="#9C9C9C"
+            android:fontFamily="@font/font_medium"
+            android:textStyle="italic"
+            android:text="Copyrightⓒ2024 Airsignal® All right reserved"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+</layout>
